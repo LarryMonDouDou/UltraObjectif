@@ -1,0 +1,34 @@
+## - - - - - - - - - - - - - - - - - - - - - -
+###               Ultra Objectif              |
+##                                            |
+## Développeur: Larry!                        |
+## Discord: larrydev                          |
+#                                             |
+## Compatible avec HexColor, [RGB]            |
+## Version : 1.18.2 --> 1.20                  |
+##                                            |
+## - - - - - - - - - - - - - - - - - - - - - -
+
+
+rewards:
+  ingot:
+    commands: "give %player% minecraft:iron_ingot 64"
+  key:
+    commands: "crates givekey %player% key 1"
+objectifs:
+  melon:
+    name: "Melon"
+    bossbar: "Melon: %progress%/%max%"
+    amount: 1000
+    material: MELON
+    reward: ingot
+  pumpkin:
+    name: "Pumpkin"
+    bossbar: "%progress%/%max%  %time%"
+    amount: 1000
+    material: PUMPKIN
+    reward: ingot
+messages:
+  begin: "L'evevement a start!"
+  end: "L'evenment a fini!"
+  win: "Vous avez WIN : %reward%!"
